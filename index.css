@@ -35,11 +35,15 @@
     line-height: normal;
 }
 
+.banner__img-wrapper {
+    margin: 0;
+}
+
 .banner__img {
     max-width: 100%;
 }
 
-.banner__descricao {
+.banner__img-descricao {
     max-width: 1200px;
     color: var(--grafite, #222);
     text-align: center;
