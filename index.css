@@ -21,7 +21,13 @@
     gap: 40px;
 }
 
-.cabecalho__navegacao--item {
+.cabecalho__navegacao--lista {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.cabecalho__navegacao--item a {
     color: var(--branco);
     font-size: 24px;
     font-style: normal;
