@@ -253,6 +253,7 @@ span.material-symbols-outlined {
 .pagamento__condicoes {
   display: flex;
   gap: 24px;
+  margin-bottom: 8px;
 }
 
 .pagamento__condicoes--destaque {
@@ -276,10 +277,11 @@ span.material-symbols-outlined {
 
 .pagamento__imagens--imagem-container {
   flex: 1;
+  margin: 0;
 }
 
 .pagamento__imagens--imagem-destaque {
-  margin-top: 20px;
+  margin: 0;
 }
 
 .pagamento__imagens--imagem {
